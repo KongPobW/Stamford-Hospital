@@ -1,0 +1,145 @@
+<html>
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+      body,
+      html {
+         height: 100%;
+         margin: 0;
+      }
+
+      .bg {
+         /* The image used */
+         background-image: url("Photo/img5.jpg");
+
+         /* Full height */
+         height: 100%;
+
+         /* Center and scale the image nicely */
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+
+      .bg .content {
+         position: fixed;
+         /* Position the background text */
+         bottom: 0;
+         /* At the bottom. Use top:0 to append it to the top */
+         background: rgb(0, 0, 0);
+         /* Fallback color */
+         background: rgba(0, 0, 0, 0.5);
+         /* Black background with 0.5 opacity */
+         color: #f1f1f1;
+         /* Grey text */
+         width: 100%;
+         /* Full width */
+         padding: 20px;
+         /* Some padding */
+         height: 36.5%;
+      }
+
+      * {
+         box-sizing: border-box;
+      }
+
+      .row {
+         display: flex;
+      }
+
+      .column {
+         flex: 5%;
+         padding: 10px;
+         height: 320px;
+         /* Should be removed. Only for demonstration */
+      }
+
+      .text-block {
+         position: absolute;
+         top: 30px;
+         left: 30px;
+         background-color: #A68F85;
+         color: white;
+         padding-left: 20px;
+         padding-right: 20px;
+      }
+
+      .button {
+         background-color: #576B79;
+         border: none;
+         color: white;
+         padding: 15px 32px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         margin: 4px 2px;
+         cursor: pointer;
+      }
+
+      .button:hover {
+         background-color: #808B96;
+      }
+
+      #diff {
+         margin-top: 35px;
+      }
+
+      p {
+         text-align: justify;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="bg">
+      <div class="text-block">
+         <h3>Therapy, Psychiatry, Psychology,</h3>
+         <h3>Self Esteem, and the Power of Forgiveness</h3>
+      </div>
+      <div class="content">
+         <div class="row">
+            <div class="column" style="background-color: #aaa;">
+               <h2>Fostering individual, communal well-being through anti-oppressive, and trauma-informed music therapy
+               </h2>
+               <p>
+                  Listening to music can be entertaining, and some research suggests that it might even make you
+                  healthier.
+                  Music can be a source of pleasure and contentment, but there are many other psychological benefits as
+                  well.
+                  Music can relax the mind, energize the body, and even help people better manage pain.
+               </p>
+               <p id="diff">
+                  The notion that music can influence your thoughts, feelings, and behaviors probably does not come as
+                  much of a surprise.
+               </p>
+               <a href="https://www.verywellmind.com/surprising-psychological-benefits-of-music-4126866" target="_blank"
+                  class="button">Read more</a>
+            </div>
+            <div class="column" style="background-color: #bbb;">
+               <h2>Psychology of Forgiveness: 10+ Fascinating Research Findings Therapists Need to Help Clients their
+                  Forgive</h2>
+               <p>
+                  Forgiveness is a process, and while the duration and difficulty will vary significantly, it can be
+                  equally applied to all
+                  levels of pain whether it’s the result of someone being rude to us in a store, a life cut short, or a
+                  partner cheating.
+                  Overall, findings suggested that learning to forgive improves psychological and physiological wellness
+                  and offers protection
+                  against future upsets.
+               </p>
+               <p>
+                  Forgiveness training also leads individuals to become emotionally stronger, experience greater
+                  confidence,
+                  and be increasingly optimistic.
+               </p>
+               <a href="https://positivepsychology.com/psychology-of-forgiveness/" target="_blank" class="button">Read
+                  more</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>

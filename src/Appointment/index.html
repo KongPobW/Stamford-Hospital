@@ -1,0 +1,161 @@
+<html>
+
+<head>
+   <title>Appointment | Stamford Hospital</title>
+
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/2852391355.js" crossorigin="anonymous"></script>
+   <link rel="icon" href="Photo/Favicon.png">
+</head>
+
+<body>
+   <!--create logo-->
+   <div class="logo">
+      <img id="logo" src="Photo/Hospital Logo.jpg" alt="Logo">
+   </div>
+
+   <!--create menu bar-->
+   <div class="menu-bar">
+      <ul>
+         <li><a href="../Home/index.html"><i class="fas fa-home"></i>Home</a></li>
+         <li>
+            <a href="#"><i class="fas fa-bars"></i>Menu</a>
+            <div class="sub-menu">
+               <ul>
+                  <li><a href="../Article/index.html"><i class="fas fa-newspaper"></i>Article</a></li>
+                  <li><a href="../About/index.html"><i class="fas fa-address-card"></i>About</a></li>
+                  <li><a href="../Contact/index.html"><i class="fas fa-phone-square-alt"></i>Contact</a></li>
+               </ul>
+            </div>
+         </li>
+         <li><a href="../Doctor/index.html"><i class="fas fa-user-md"></i>Doctor</a></li>
+         <li><a href="index.html"><i class="fas fa-calendar-check"></i>Appointment</a></li>
+      </ul>
+   </div>
+
+   <!--create form-->
+   <main>
+      <div class="appointment">
+         <h4>Appointment Request</h4><br>
+         <form id="ft-form" method="POST" accept-charset="UTF-8">
+            <div class="part-form">
+               <div class="container-input">
+                  <label>Name</label>
+                  <input type="text" name="name" required>
+               </div>
+
+               <div class="container-input">
+                  <label>Symptom</label>
+                  <input type="text" name="symptom" required>
+               </div>
+
+               <div class="two-cols">
+                  <div class="container-input">
+                     <label>Email</label>
+                     <input type="email" name="email" required>
+                  </div>
+
+                  <div class="container-input">
+                     <label>Phone Number</label>
+                     <input type="tel" name="phone" required>
+                  </div>
+               </div>
+
+               <div class="two-cols">
+                  <div class="container-input">
+                     <label>Date</label>
+                     <input type="date" required>
+                  </div>
+
+                  <div class="container-input">
+                     <label>Time</label>
+                     <input type="text" required>
+                  </div>
+               </div>
+            </div>
+
+            <div class="part-form">
+               <p>Confirmation Requested By</p>
+               <div class="inline">
+                  <div class="container-input radio-input">
+                     <input type="radio" name="radio-email" value="Email" checked>
+                     <label>Email</label>
+                  </div>
+
+                  <div class="container-input radio-input">
+                     <input type="radio" name="radio-phone" value="Phone Call">
+                     <label>Phone Call</label>
+                  </div>
+               </div>
+            </div>
+
+            <div class="btns">
+               <input type="submit" value="Submit">
+            </div>
+         </form>
+      </div>
+   </main>
+
+   <!--footer-->
+   <footer>
+      <div class="footer-container">
+         <div class="sec f-about-us">
+            <h2>About Us</h2>
+            <br>
+            <p>
+               Named after Sir Stamford Raffles (1781-1826), Stamford International Hospital, part of Bangkok Rama 9
+               Medical Services (BRMS),
+               arena leading group of private hospitals serving both Thailand and the ASEAN region. Stamford
+               International Hospital was found
+               in October 2003. Stamford's main office is located at Stamford International Hospital, Rama 9.
+            </p>
+            <ul class="social">
+               <li><a href="https://www.facebook.com/stamfordthailand/"><i class="fab fa-facebook"
+                        aria-hidden="true"></i></a></li>
+               <li><a href="https://twitter.com/stamfordiu?lang=en"><i class="fab fa-twitter"
+                        aria-hidden="true"></i></a></li>
+               <li><a href="https://www.instagram.com/stamfordthailand/?hl=en"><i class="fab fa-instagram"
+                        aria-hidden="true"></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UC6fwSTbIYeALQPKLL9e7ChQ"><i class="fab fa-youtube"
+                        aria-hidden="true"></i></a></li>
+            </ul>
+         </div>
+         <div class="sec pages">
+            <h2>Pages</h2>
+            <br>
+            <ul>
+               <li><a href="../Home/index.html">Home</a></li>
+               <li><a href="../Article/index.html">Article</a></li>
+               <li><a href="../About/index.html">About</a></li>
+               <li><a href="../Contact/index.html">Contact</a></li>
+               <li><a href="../Doctor/index.html">Doctor</a></li>
+               <li><a href="index.html">Appointment</a></li>
+            </ul>
+         </div>
+         <div class="sec f-contact-us">
+            <h2>Contact Info</h2>
+            <br>
+            <ul class="f-info">
+               <li>
+                  <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                  <span>16, Motorway Road – Km2, Prawet, Bangkok 10250 Thailand.</span>
+               </li>
+               <li>
+                  <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                  <p>
+                     <a href="tel: +66887775555">+66887775555</a>
+                  </p>
+               </li>
+               <li>
+                  <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                  <p>
+                     <a href="mailto: Stamford.Hos@gmail.com">Stamford.Hos@gmail.com</a>
+                  </p>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>
