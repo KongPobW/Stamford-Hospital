@@ -5,45 +5,45 @@
 
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/2852391355.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="Photo/Favicon.png">
+    <link rel="icon" href="photo/favicon.png">
 </head>
 
 <body>
     <!--create logo-->
-    <div class="logo">
-        <img id="logo" src="Photo/Hospital Logo.jpg" alt="Logo">
+    <div class="logo-container">
+        <img id="logo" src="photo/hospital-logo.jpg" alt="Logo">
     </div>
 
     <!--create menu bar-->
-    <div class="menu-bar">
+    <div class="menubar-container">
         <ul>
-            <li><a href="../Home/index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="../home/index.html"><i class="fas fa-home"></i>Home</a></li>
             <li>
                 <a href="#"><i class="fas fa-bars"></i>Menu</a>
                 <div class="sub-menu">
                     <ul>
-                        <li><a href="../Article/index.html"><i class="fas fa-newspaper"></i>Article</a></li>
-                        <li><a href="../About/index.html"><i class="fas fa-address-card"></i>About</a></li>
-                        <li><a href="index.html"><i class="fas fa-phone-square-alt"></i>Contact</a></li>
+                        <li><a href="../article/index.html"><i class="fas fa-newspaper"></i>Article</a>
+                        <li><a href="../about/index.html"><i class="fas fa-address-card"></i>About</a>
+                        <li><a href="index.html"><i class="fas fa-phone-square-alt"></i>Contact</a>
                     </ul>
                 </div>
             </li>
-            <li><a href="../Doctor/index.html"><i class="fas fa-user-md"></i>Doctor</a></li>
-            <li><a href="../Appointment/index.html"><i class="fas fa-calendar-check"></i>Appointment</a></li>
+            <li><a href="../doctor/index.html"><i class="fas fa-user-md"></i>Doctor</a></li>
+            <li><a href="../appointment/index.html"><i class="fas fa-calendar-check"></i>Appointment</a></li>
         </ul>
     </div>
 
-    <section class="background firstsection">
-        <div class="box-main">
-            <div class="first-half">
+    <section class="introduce-container">
+        <div class="introduce-content-container">
+            <div class="introduce-content">
                 <p class="text-big">Contact Stamford Hospital</p><br><br>
-                <img class="logo-stamford" src="Photo/Stamford Logo.png">
+                <img class="logo-stamford" src="photo/stamford-logo.png">
             </div>
         </div>
     </section>
 
-    <div class="container">
-        <div class="container-map">
+    <div class="contact-container">
+        <div class="map-container">
             <!--location-->
             <iframe id="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.7244185816044!2d100.65921491477903!3d13.73512729035824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d61a987e00607%3A0xda2e11759cf75777!2sStamford%20International%20University!5e0!3m2!1sen!2sth!4v1628967903291!5m2!1sen!2sth"
@@ -52,18 +52,18 @@
 
         <div class="contact-form">
             <form id="ft-form" method="POST" accept-charset="UTF-8">
-                <div class="part-form">
-                    <div class="container-input">
+                <div class="form-container">
+                    <div class="input-container">
                         <label>Name</label>
                         <input type="text" name="name" required>
                     </div>
 
-                    <div class="container-input">
+                    <div class="input-container">
                         <label>Email</label>
                         <input type="email" name="email" required>
                     </div>
 
-                    <div class="container-input">
+                    <div class="input-container">
                         <label>Message</label>
                         <textarea name="message" id="message" cols="95" rows="5"></textarea>
                     </div>
@@ -79,7 +79,7 @@
     <!--footer-->
     <footer>
         <div class="footer-container">
-            <div class="sec f-about-us">
+            <div class="f-about-us">
                 <h2>About Us</h2>
                 <br>
                 <p>
@@ -100,22 +100,22 @@
                                 aria-hidden="true"></i></a></li>
                 </ul>
             </div>
-            <div class="sec pages">
+            <div class="f-pages">
                 <h2>Pages</h2>
                 <br>
                 <ul>
-                    <li><a href="../Home/index.html">Home</a></li>
-                    <li><a href="../Article/index.html">Article</a></li>
-                    <li><a href="../About/index.html">About</a></li>
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../article/index.html">Article</a></li>
+                    <li><a href="../about/index.html">About</a></li>
                     <li><a href="index.html">Contact</a></li>
-                    <li><a href="../Doctor/index.html">Doctor</a></li>
-                    <li><a href="../Appointment/index.html">Appointment</a></li>
+                    <li><a href="../doctor/index.html">Doctor</a></li>
+                    <li><a href="../appointment/index.html">Appointment</a></li>
                 </ul>
             </div>
-            <div class="sec f-contact-us">
+            <div class="f-contact-info">
                 <h2>Contact Info</h2>
                 <br>
-                <ul class="f-info">
+                <ul class="contact">
                     <li>
                         <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
                         <span>16, Motorway Road – Km2, Prawet, Bangkok 10250 Thailand.</span>
